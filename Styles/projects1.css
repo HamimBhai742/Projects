@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+.banner-container {
+    display: flex;
+    padding: 20px 120px;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-titel {
+    color: #272727;
+    max-width: 531px;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    max-width: 475;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-pry {
+    display: inline-flex;
+    padding: 15px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    border-radius: 5px;
+    background: #E55473;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+.btn-pry:hover {
+    background-color: #c4133a;
+}
+
+.banner-text {
+    /* margin-bottom: 20px; */
+}
+
+.banner-description,
+.banner-titel {
+    margin-bottom: 20px;
+}
+
+.banner-img img {
+    vertical-align: middle;
+    margin-bottom: -20px;
+    margin-left: 50px;
+}
+
+.section-img-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.section-titel {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-folower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 120px 50px 0 50px;
+    height: 250px;
+    width: 200px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section-img {
+
+    margin-left: 30px;
+}
+
+.section-folower img {
+    width: 83%;
+}
+
+.section-img-des {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.img1 {
+    width: 85%;
+    padding-bottom: 22px;
+}
+
+.img3 {
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.section-container {
+    margin-top: 120px;
+}
+
+.section-emoji {
+    margin-top: 100px;
+    display: flex;
+    height: 240px;
+    width: 1080px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.emoji {
+    text-align: center;
+}
+
+.section1-container {
+    width: 1260px;
+    height: 465px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.banner-description {
+    max-width: 445px;
+}
+
+.section1-container {
+    margin-top: 100px;
+}
+
+.section1-titel {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-titel {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.section2 img {
+    width: 220px;
+    height: 350px;
+    flex-shrink: 0;
+    margin-left: 15px;
+}
+
+.section2 {
+    padding: 50px 150px;
+}
+
+
+
+.section3 {
+    background-image: url('../flower-shop/Rectangle\ 9.png');
+    width: 1080px;
+    height: 336px;
+    flex-shrink: 0;
+    border-radius: 5px;
+
+}
+
+.scetion3-container {
+    padding: 80px 100px;
+    align-items: center;
+}
+
+.section3 h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 100px;
+}
+
+.section3 p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.section3 input {
+    width: 525px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    align-items: center;
+
+}
+
+.section3 .email {
+    padding: 30px 170px;
+}
+
+.section4-container h1 {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.section4-container p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 470px;
+
+}
+
+.section4-container span {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section4 {
+    width: 1260px;
+    height: 336px;
+    background-color: black;
+}
+
+.section4-container .p1 {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section4-container h1 p{
+    padding-bottom:  50px;
+}
+.section4-container{
+    padding: 100px 400px;
+}
