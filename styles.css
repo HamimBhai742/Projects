@@ -1,0 +1,14 @@
+.banner-img{
+    /* width: 1600px;
+    height: 808px; */
+    flex-shrink: 0;
+}
+.banner-size{
+    background: url(./new-year-new-me/banner1-removebg-preview.png), lightgray -0.889px 0px / 100.111% 111.51% no-repeat;;
+}
+.banner-titel{
+    padding: 180px 200px 350px 850px;
+}
+.banner-description{
+    margin: -450px -200px -260px -800px;
+}
